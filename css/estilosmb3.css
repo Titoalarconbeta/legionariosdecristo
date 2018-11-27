@@ -1,0 +1,134 @@
+
+/*FONDO*/
+body {
+  font-family: 'Shrikhand', cursive;
+font-family: 'Playfair Display', serif;
+   background-image: url("http://regnumchristi.com.br/wp-content/uploads/2017/09/legionarios-de-cristo-e1490897536479.jpg");
+    background-size: 100%;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div {
+    border-radius: 5px;
+    background-color: red;
+    padding: 20px;
+}
+
+
+/* AMBA*/
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+/* Gracias por tu visita*/
+footer {
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+p span {
+  float: right;
+}
+/*enlaces*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+/*letras del enlace */
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:lightskyblue;
+
+}
+/*Buenos aires ciudad*/
+.amar {
+  background-color: yellow ;
+  color: black;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #00ccff;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+  
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px lightblue;
+
+}
+label1{
+text-align:right;
+}
+
+h2{
+text-align:center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
