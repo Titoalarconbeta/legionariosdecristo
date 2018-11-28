@@ -12,12 +12,6 @@ font-family: 'Playfair Display', serif;
     width: 100%;
 }
 
-div {
-    border-radius: 5px;
-    background-color: red;
-    padding: 20px;
-}
-
 
 /* AMBA*/
 header {
@@ -58,7 +52,7 @@ ul {
     margin: 0;
     padding: 0.5px;
     overflow: hidden;
-    background-color: transparent;
+    background-color: #333;
 }
 
 li {
@@ -67,14 +61,14 @@ li {
 /*letras del enlace */
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color:lightskyblue;
+    background-color:black;
 
 }
 /*Buenos aires ciudad*/
@@ -109,11 +103,11 @@ input[type=submit]:hover {
 
 div {
     border-radius: 5px;
-    background-color: #00ccff;
+    background-color: #AB1818;
     padding: 14px 20px;
     margin: 8px 0px;
     border: none;
-  
+  color:white;
 }
 h1{
   text-align: center;
@@ -125,10 +119,10 @@ text-align:right;
 }
 
 h2{
-text-align:center;
+text-align:left;
 }
 img {
     display: block;
-    margin-left: auto;
+    margin-left: left;
     margin-right: auto;
 }
